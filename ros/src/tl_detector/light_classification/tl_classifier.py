@@ -35,7 +35,7 @@ class TLClassifier(object):
             with tf.gfile.GFile(PATH_TO_MODEL, 'rb') as fid:
                 serialized_graph = fid.read()
                 od_graph_def.ParseFromString(serialized_graph)
-                tf.import_graph_def(od_graph_def, name='')
+                tf.import_graph_def(od_graph_def, name = '')
 
             self.sess = tf.Session(graph=self.detection_graph)
         

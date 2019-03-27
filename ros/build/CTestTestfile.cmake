@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/student/Documents/capstone/ros/src
-# Build directory: /home/student/Documents/capstone/ros/build
+# Source directory: /home/student/Documents/CarND-System-Integration-Project/ros/src
+# Build directory: /home/student/Documents/CarND-System-Integration-Project/ros/build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

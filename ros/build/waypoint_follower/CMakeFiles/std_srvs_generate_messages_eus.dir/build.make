@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/Documents/capstone/ros/src
+CMAKE_SOURCE_DIR = /home/student/Documents/CarND-System-Integration-Project/ros/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/Documents/capstone/ros/build
+CMAKE_BINARY_DIR = /home/student/Documents/CarND-System-Integration-Project/ros/build
 
 # Utility rule file for std_srvs_generate_messages_eus.
 
@@ -63,10 +63,10 @@ waypoint_follower/CMakeFiles/std_srvs_generate_messages_eus.dir/build: std_srvs_
 .PHONY : waypoint_follower/CMakeFiles/std_srvs_generate_messages_eus.dir/build
 
 waypoint_follower/CMakeFiles/std_srvs_generate_messages_eus.dir/clean:
-	cd /home/student/Documents/capstone/ros/build/waypoint_follower && $(CMAKE_COMMAND) -P CMakeFiles/std_srvs_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/student/Documents/CarND-System-Integration-Project/ros/build/waypoint_follower && $(CMAKE_COMMAND) -P CMakeFiles/std_srvs_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : waypoint_follower/CMakeFiles/std_srvs_generate_messages_eus.dir/clean
 
 waypoint_follower/CMakeFiles/std_srvs_generate_messages_eus.dir/depend:
-	cd /home/student/Documents/capstone/ros/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/Documents/capstone/ros/src /home/student/Documents/capstone/ros/src/waypoint_follower /home/student/Documents/capstone/ros/build /home/student/Documents/capstone/ros/build/waypoint_follower /home/student/Documents/capstone/ros/build/waypoint_follower/CMakeFiles/std_srvs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/student/Documents/CarND-System-Integration-Project/ros/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/Documents/CarND-System-Integration-Project/ros/src /home/student/Documents/CarND-System-Integration-Project/ros/src/waypoint_follower /home/student/Documents/CarND-System-Integration-Project/ros/build /home/student/Documents/CarND-System-Integration-Project/ros/build/waypoint_follower /home/student/Documents/CarND-System-Integration-Project/ros/build/waypoint_follower/CMakeFiles/std_srvs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : waypoint_follower/CMakeFiles/std_srvs_generate_messages_eus.dir/depend
 

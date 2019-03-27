@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/Documents/capstone/ros/src
+CMAKE_SOURCE_DIR = /home/student/Documents/CarND-System-Integration-Project/ros/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/Documents/capstone/ros/build
+CMAKE_BINARY_DIR = /home/student/Documents/CarND-System-Integration-Project/ros/build
 
 # Utility rule file for styx_msgs_geneus.
 
@@ -63,10 +63,10 @@ styx_msgs/CMakeFiles/styx_msgs_geneus.dir/build: styx_msgs_geneus
 .PHONY : styx_msgs/CMakeFiles/styx_msgs_geneus.dir/build
 
 styx_msgs/CMakeFiles/styx_msgs_geneus.dir/clean:
-	cd /home/student/Documents/capstone/ros/build/styx_msgs && $(CMAKE_COMMAND) -P CMakeFiles/styx_msgs_geneus.dir/cmake_clean.cmake
+	cd /home/student/Documents/CarND-System-Integration-Project/ros/build/styx_msgs && $(CMAKE_COMMAND) -P CMakeFiles/styx_msgs_geneus.dir/cmake_clean.cmake
 .PHONY : styx_msgs/CMakeFiles/styx_msgs_geneus.dir/clean
 
 styx_msgs/CMakeFiles/styx_msgs_geneus.dir/depend:
-	cd /home/student/Documents/capstone/ros/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/Documents/capstone/ros/src /home/student/Documents/capstone/ros/src/styx_msgs /home/student/Documents/capstone/ros/build /home/student/Documents/capstone/ros/build/styx_msgs /home/student/Documents/capstone/ros/build/styx_msgs/CMakeFiles/styx_msgs_geneus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/student/Documents/CarND-System-Integration-Project/ros/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/Documents/CarND-System-Integration-Project/ros/src /home/student/Documents/CarND-System-Integration-Project/ros/src/styx_msgs /home/student/Documents/CarND-System-Integration-Project/ros/build /home/student/Documents/CarND-System-Integration-Project/ros/build/styx_msgs /home/student/Documents/CarND-System-Integration-Project/ros/build/styx_msgs/CMakeFiles/styx_msgs_geneus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : styx_msgs/CMakeFiles/styx_msgs_geneus.dir/depend
 

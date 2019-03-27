@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/styx_msgs_generate_messages_cpp"
-  "/home/student/Documents/capstone/ros/devel/include/styx_msgs/Lane.h"
-  "/home/student/Documents/capstone/ros/devel/include/styx_msgs/TrafficLightArray.h"
-  "/home/student/Documents/capstone/ros/devel/include/styx_msgs/Waypoint.h"
-  "/home/student/Documents/capstone/ros/devel/include/styx_msgs/TrafficLight.h"
+  "/home/student/Documents/CarND-System-Integration-Project/ros/devel/include/styx_msgs/Lane.h"
+  "/home/student/Documents/CarND-System-Integration-Project/ros/devel/include/styx_msgs/TrafficLightArray.h"
+  "/home/student/Documents/CarND-System-Integration-Project/ros/devel/include/styx_msgs/Waypoint.h"
+  "/home/student/Documents/CarND-System-Integration-Project/ros/devel/include/styx_msgs/TrafficLight.h"
 )
 
 # Per-language clean rules from dependency scanning.
