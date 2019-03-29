@@ -24,7 +24,7 @@ class TLClassifier(object):
     def __init__(self):
         #TODO load classifier
         # Path to frozen detection graph.
-        PATH_TO_MODEL = os.path.join(os.path.dirname(os.path.abspath(__file__)), "frozen_inference_graph.pb")
+        PATH_TO_MODEL = os.path.join(os.path.dirname(os.path.abspath(__file__)), "frozen_inference_graph_real.pb")
         
         # Load a frozen model into memory        
         self.detection_graph = tf.Graph()
